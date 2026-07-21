@@ -33,3 +33,9 @@ import openRestaurants from './3-open_restaurants.js';
  
 openRestaurants().then((list) => console.log(list));
 */
+
+//Test 5
+
+import fastestDriver from './4-driver_race.js';
+ 
+fastestDriver().then((name) => console.log(`Order assigned to ${name}`));
