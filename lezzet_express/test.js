@@ -36,6 +36,17 @@ openRestaurants().then((list) => console.log(list));
 
 //Test 5
 
+/*
 import fastestDriver from './4-driver_race.js';
  
 fastestDriver().then((name) => console.log(`Order assigned to ${name}`));
+*/
+
+//Test 6
+
+/*
+import readFromCache from './5-cache.js';
+ 
+readFromCache('home').then((a) => console.log(a));
+readFromCache('park').catch((e) => console.log(e.message));
+*/
