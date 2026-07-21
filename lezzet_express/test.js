@@ -20,7 +20,16 @@ handleOperation(202);
 
 //Test 3
 
+/*
 import loadAllMenus from './2-load_menus.js';
  
 loadAllMenus().then((result) => console.log(result));
+*/
 
+//Test 4
+
+/*
+import openRestaurants from './3-open_restaurants.js';
+ 
+openRestaurants().then((list) => console.log(list));
+*/
