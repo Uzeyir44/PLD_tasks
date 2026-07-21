@@ -18,4 +18,9 @@ import handleOperation from './1-handle_operation.js';
 handleOperation(202);
 */
 
+//Test 3
+
+import loadAllMenus from './2-load_menus.js';
+ 
+loadAllMenus().then((result) => console.log(result));
 
