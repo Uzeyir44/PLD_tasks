@@ -24,14 +24,11 @@ function countTickets(path) {
       sectors[sector] = [];
     }
 
-    // Add the passenger's name
     sectors[sector].push(name);
   }
 
-  // Step 5: Print total number of tickets
   console.log(`Number of tickets: ${lines.length}`);
 
-  // Step 6: Print statistics for each sector
   for (const [sector, names] of Object.entries(sectors)) {
     console.log(
       `Number of tickets in ${sector}: ${names.length}. List: ${names.join(', ')}`
